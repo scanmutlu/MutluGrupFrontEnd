@@ -1,0 +1,89 @@
+div {
+}
+#logo {
+	max-height: 150px;
+	min-height: 100px;
+	min-width: 150px;
+	height: auto;
+	margin-left: 10%;
+}
+#icerik {
+
+	height: 600px;
+}
+
+
+
+#brandlogo {
+	margin-top : -20px;
+	text-align: center;
+	box-shadow: 3px 3px 3px #333;
+	background-color: #232323;
+	border-color: #080808;
+	border:5px;
+	border-radius: 7px; 
+}
+#resim4 ,#resim1 ,#resim2 ,#resim3{
+	height: px;
+}
+#myCarouse1 {
+	margin-top: 0px;
+}
+h1 h2 {
+	text-shadow: 5px 5px 10px #000; 
+}
+@media (max-width: 3000px) {
+	h1.buyuk ,h2.buyuk{
+		display: inline;
+	}
+
+	h3.kucuk, p.kucuk{
+		display: none;
+	}
+	#brandlogo{
+		width: 300px ;
+		height: 150px; 
+		padding: 5px;
+	}
+	#harita {
+		width: 500px;
+		height: 350px;
+	}
+	
+}
+
+@media (max-width: 850px){
+	h2.buyuk , h1.buyuk{
+		display: none;
+	}
+	div .carousel-caption{
+		max-height: 70%;
+	}
+
+	h3.kucuk, p.kucuk{
+		font-size: 12px;
+		line-height: 0px;
+		display: inline;
+		padding: 0px;
+		margin-top: 300px;
+		margin-bottom: 0px;
+
+	}
+	#brandlogo{
+		width: 170px ;
+		height: 80px;
+	}
+	#harita {
+		width: 200px;
+		height: 200px;
+	}
+
+}
+#innerblock {
+	background-color: #E6E6E6;
+	height: 1000px;
+	text-align: center;
+}
+#parag {
+  	font-size: 20px;
+}
